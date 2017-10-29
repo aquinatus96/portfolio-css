@@ -1,0 +1,176 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    /* Tylko w celu sprawdzenia efektu - do usunięcia */
+    background-color: beige;
+}
+
+
+section {
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+h1 {
+    padding: 40px;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+
+span {
+    font-weight: 400;
+    color: #1ac056;
+}
+
+p {
+    margin: 0;
+    line-height: 1.75em;
+    font-size: 1em;
+    font-weight: 300;
+    width: auto;
+}
+
+
+/* General styles - END */
+
+/* Main nav style */
+
+#main-menu {
+    background-color: #fff;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+#main-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+#main-menu li {
+    padding: 25px;
+    display: inline-block;
+}
+
+#main-menu a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+    transition: all 0.4s ease-out;
+}
+
+#main-menu a:hover {
+    text-decoration: none;
+    color: #291f1a;
+}
+
+/* Main nav style - END */
+
+/*Main header style*/
+
+#main-header {
+    height: 100vh;
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+
+#main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#main-header .header-caption h1,
+#main-header .header-caption h2 {
+    font-weight: 100;
+    margin: 5px;
+}
+
+#main-header .header-caption h1 {
+    font-size: 7.5em;
+}
+
+#main-header .header-caption h2 {
+    font-size: 2em;
+}
+
+/*Main header style - END*/
+
+/*about style*/
+
+#about {
+    background-color: #f9fcfe;
+}
+
+#about div {
+    width: 44%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin: 0 2%;
+    /*    padding-right: 20px;*/
+}
+
+#about h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+#about #image-about {
+    text-align: center;
+}
+
+#about div img {
+    height: 450px;
+    width: auto;
+    border: 15px solid;
+    border-color: #fff;
+    border-radius: 5%;
+}
+
+
+#about div p {
+    width: auto;
+    margin: 0;
+    text-align: left;
+    vertical-align: text-top;
+    line-height: 1.75em;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+/*about style - END*/
+
+/*skills style*/
+
+#skills p {
+    text-align: center;
+    padding: 0 3%;
+}
+
+#fd-icons figure {
+    display: inline-block;
+    text-align: center;
+}
+
+/*skills style - END*/
+
